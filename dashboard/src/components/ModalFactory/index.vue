@@ -9,7 +9,7 @@ const DEFAULT_WIDTH = 'w-3/4 lg:w-1/3'
 export default {
   components: {
     ModalLogin
-  },
+  }, 
   
   setup() {
     const modal = useModal()
@@ -68,6 +68,5 @@ export default {
           </div>
         </div>
       </div>
-    </div>
   </teleport>
 </template>
